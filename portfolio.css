@@ -1,0 +1,174 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #105e5e;
+    background-image: url(coder.avif);
+    background-attachment: fixed; /* Keep background fixed */
+    background-position: center;
+    background-size: cover;
+    color: #ffffff;
+}
+
+header {
+    padding: 20px;
+    background-color: rgba(4, 35, 44, 0.5);
+    text-align: center;
+}
+
+h1#Name {
+    margin: 0;
+    color: #fff;
+    /* Add a transition for smooth effect */
+    transition: color 0.3s ease;
+}
+
+h1#Name:hover {
+    /* Add glowing effect */
+    text-shadow: 0 0 7px #ffffff, 0 0 20px #64cde2, 0 0 30px #73c6ea, 0 0 40px #00ffff, 0 0 70px #8dc5de, 0 0 80px #55b9cd, 0 0 100px #4dc7c7, 0 0 150px #45e0db;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+nav ul li a:hover{
+
+    text-shadow: 0 0 7px #ffffff, 0 0 20px #64cde2, 0 0 30px #73c6ea, 0 0 40px #00ffff, 0 0 70px #8dc5de, 0 0 80px #55b9cd, 0 0 100px #4dc7c7, 0 0 150px #45e0db;
+
+}
+
+section {
+    padding: 50px;
+    background-color: rgba(53, 0, 41, 0.5);
+}
+
+footer {
+    padding: 20px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+footer p {
+    margin: 0;
+}
+
+.aboutme{
+    background: rgba(255, 255, 255, 0.1); /* Semi-transparent white background */
+    backdrop-filter: blur(10px); /* Blur effect for background */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 6px 20px rgba(0, 0, 0, 0.1); /* Soft shadow for 3D effect */
+    border: 1px solid rgba(255, 255, 255, 0.2); /* Light border */
+    border-radius: 10px; /* Rounded corners */
+    padding: 10px; /* Padding inside the div */
+    margin: 20px; /* Margin around the div */
+    color: #ffffff; /* Text color */
+    transition: transform 0.3s ease; /* Smooth transform transition */
+}
+
+.aboutme:hover {
+    transform: translateY(-10px); /* Slightly lift the div on hover */
+}
+
+.projects{
+    background: rgba(255, 255, 255, 0.1); /* Semi-transparent white background */
+    backdrop-filter: blur(10px); /* Blur effect for background */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 6px 20px rgba(0, 0, 0, 0.1); /* Soft shadow for 3D effect */
+    border: 1px solid rgba(255, 255, 255, 0.2); /* Light border */
+    border-radius: 10px; /* Rounded corners */
+    padding: 10px; /* Padding inside the div */
+    margin: 20px; /* Margin around the div */
+    color: #ffffff; /* Text color */
+    transition: transform 0.3s ease; /* Smooth transform transition */
+}
+
+.projects:hover {
+    transform: translateY(-10px); /* Slightly lift the div on hover */
+}
+.translucent-gate {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000; /* Ensure it covers everything */
+}
+
+.translucent-gate button {
+    padding: 15px 30px;
+    font-size: 20px;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.2);
+    color: #ffffff;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.translucent-gate button:hover {
+    background-color: rgba(232, 215, 215, 0.3);
+}
+#contact-form {
+    padding: 20px;
+    background-color: rgba(53, 0, 41, 0.5);
+    border-radius: 10px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #ffffff;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.2);
+    color: #ffffff;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+textarea:focus {
+    background-color: rgba(255, 255, 255, 0.3);
+    outline: none;
+}
+
+button[type="submit"] {
+    padding: 10px 20px;
+    background-color: rgba(255, 255, 255, 0.2);
+    border: none;
+    border-radius: 5px;
+    color: #ffffff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+}
